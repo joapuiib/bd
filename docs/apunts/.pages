@@ -1,3 +1,4 @@
 nav:
     - ...
     - "UD1: Sistemes d'emmagatzematge de la informació": 01_sgbd
+    - "UD2: Model Entitat Relació": 02_er

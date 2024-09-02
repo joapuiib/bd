@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-10-02T17:50:24.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="04Whd665wDkqL6JDgCWk" version="22.0.1" type="device">
+  <diagram name="Pàgina-1" id="LotDB5goZWibAtrZcXVA">
+    <mxGraphModel dx="954" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KG0StfkNir3XoQohIIo--1" value="&lt;b&gt;ENTITAT FEBLE&lt;/b&gt;" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERone;endFill=0;endSize=12;" edge="1" parent="1" source="KG0StfkNir3XoQohIIo--3" target="KG0StfkNir3XoQohIIo--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--3" value="té" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;endSize=12;" edge="1" parent="1" source="KG0StfkNir3XoQohIIo--3" target="KG0StfkNir3XoQohIIo--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="30" as="sourcePoint" />
+            <mxPoint x="320" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--7" value="Clau primària" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=12;" edge="1" parent="1" source="KG0StfkNir3XoQohIIo--7" target="KG0StfkNir3XoQohIIo--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="180" as="sourcePoint" />
+            <mxPoint x="230" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;endSize=12;" edge="1" parent="1" source="KG0StfkNir3XoQohIIo--14" target="KG0StfkNir3XoQohIIo--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446.377160773975" y="238.89672396997116" as="sourcePoint" />
+            <mxPoint x="620" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--14" value="&lt;span style=&quot;border-bottom: 1px dotted&quot;&gt;Discriminant&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KG0StfkNir3XoQohIIo--17" value="ENTITAT FORTA" style="whiteSpace=wrap;html=1;align=center;fontStyle=1;fontSize=16;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
