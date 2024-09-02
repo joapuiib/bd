@@ -18,4 +18,16 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/01_sgbd/010_sistemes_informacio/"/>
     </url>
+    <url>
+        <loc>Noneapunts/01_sgbd/020_sgbd/</loc>
+        <lastmod>2024-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/01_sgbd/020_sgbd/"/>
+    </url>
+    <url>
+        <loc>Noneapunts/02_er/010_er/</loc>
+        <lastmod>2024-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/02_er/010_er/"/>
+    </url>
 </urlset>
