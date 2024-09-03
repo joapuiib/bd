@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>None./</loc>
-        <lastmod>2024-09-02</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="None"/>
     </url>
     <url>
         <loc>Noneapunts/</loc>
-        <lastmod>2024-09-02</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/"/>
     </url>
     <url>
         <loc>Noneapunts/01_sgbd/010_sistemes_informacio/</loc>
-        <lastmod>2024-09-02</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/01_sgbd/010_sistemes_informacio/"/>
     </url>
     <url>
         <loc>Noneapunts/01_sgbd/020_sgbd/</loc>
-        <lastmod>2024-09-02</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/01_sgbd/020_sgbd/"/>
     </url>
     <url>
         <loc>Noneapunts/02_er/010_er/</loc>
-        <lastmod>2024-09-02</lastmod>
+        <lastmod>2024-09-03</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/02_er/010_er/"/>
+    </url>
+    <url>
+        <loc>Noneapunts/03_relacional/010_relacional/</loc>
+        <lastmod>2024-09-03</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ca" href="Noneapunts/03_relacional/010_relacional/"/>
     </url>
 </urlset>

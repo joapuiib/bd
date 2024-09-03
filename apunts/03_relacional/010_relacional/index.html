@@ -11,10 +11,8 @@
       
       
       
-        <link rel="prev" href="../../">
+        <link rel="prev" href="../../02_er/010_er/">
       
-      
-        <link rel="next" href="../020_sgbd/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Sistemes d'emmagatzematge de la informació - BD: Bases de Dades</title>
+        <title>Model Relacional - BD: Bases de Dades</title>
       
     
     
@@ -136,7 +134,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sistemes d'emmagatzematge de la informació
+              Model Relacional
             
           </span>
         </div>
@@ -411,10 +409,8 @@
                 
   
   
-    
   
   
-  
     
     
       
@@ -428,11 +424,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -446,7 +442,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             UD1: Sistemes d'emmagatzematge de la informació
@@ -457,30 +453,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
-  
-  <span class="md-ellipsis">
-    Sistemes d'emmagatzematge de la informació
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../01_sgbd/010_sistemes_informacio/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
@@ -491,186 +467,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Taula de continguts
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduccio" class="md-nav__link">
-    <span class="md-ellipsis">
-      Introducció
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fitxers-i-directoris" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fitxers i directoris
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Fitxers i directoris">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fitxers-de-text" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fitxers de text
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fitxers-binaris" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fitxers binaris
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#directoris" class="md-nav__link">
-    <span class="md-ellipsis">
-      Directoris
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bases-de-dades" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Bases de dades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#estructura" class="md-nav__link">
-    <span class="md-ellipsis">
-      Estructura
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metadades" class="md-nav__link">
-    <span class="md-ellipsis">
-      Metadades
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#classificacio-de-les-bases-de-dades" class="md-nav__link">
-    <span class="md-ellipsis">
-      Classificació de les bases de dades
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Classificació de les bases de dades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-jerarquiques" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades jeràrquiques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-en-xarxa" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades en xarxa
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-relacionals-o-sql" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades relacionals o SQL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-nosql" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades NoSQL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-orientades-a-objectes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades orientades a objectes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-objecte-relacionals" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades objecte relacionals
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bibliografia" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bibliografia
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -683,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../020_sgbd/" class="md-nav__link">
+      <a href="../../01_sgbd/020_sgbd/" class="md-nav__link">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
@@ -784,8 +580,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -797,11 +595,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
@@ -815,7 +613,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             UD3: Model Relacional
@@ -826,10 +624,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../03_relacional/010_relacional/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
+  
+  <span class="md-ellipsis">
+    Model Relacional
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32 93.5 32 46.3 45.3 18.1 56.1 6.8 60.5 0 71.7 0 83.8v370.3c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6 11.3 3.8 24.1-4.6 24.1-16.5V83.8c0-12.1-6.8-23.3-18.1-27.6C529.7 45.3 482.5 32 432 32c-58.4 0-103.4 20-123 35.6-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"/></svg>
@@ -840,6 +658,111 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducció
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#taula-relacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Taula relacional
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#claus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Claus
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Claus">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clau-candidata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clau candidata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clau-primaria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clau primària
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clau-alternativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clau alternativa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clau-forana-o-externa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clau forana o externa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integritat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integritat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -894,37 +817,55 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fitxers-i-directoris" class="md-nav__link">
+  <a href="#taula-relacional" class="md-nav__link">
     <span class="md-ellipsis">
-      Fitxers i directoris
+      Taula relacional
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Fitxers i directoris">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#claus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Claus
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Claus">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fitxers-de-text" class="md-nav__link">
+  <a href="#clau-candidata" class="md-nav__link">
     <span class="md-ellipsis">
-      Fitxers de text
+      Clau candidata
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#fitxers-binaris" class="md-nav__link">
+  <a href="#clau-primaria" class="md-nav__link">
     <span class="md-ellipsis">
-      Fitxers binaris
+      Clau primària
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#directoris" class="md-nav__link">
+  <a href="#clau-alternativa" class="md-nav__link">
     <span class="md-ellipsis">
-      Directoris
+      Clau alternativa
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clau-forana-o-externa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clau forana o externa
     </span>
   </a>
   
@@ -936,104 +877,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bases-de-dades" class="md-nav__link">
+  <a href="#integritat" class="md-nav__link">
     <span class="md-ellipsis">
-      Bases de dades
+      Integritat
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Bases de dades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#estructura" class="md-nav__link">
-    <span class="md-ellipsis">
-      Estructura
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#metadades" class="md-nav__link">
-    <span class="md-ellipsis">
-      Metadades
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#classificacio-de-les-bases-de-dades" class="md-nav__link">
-    <span class="md-ellipsis">
-      Classificació de les bases de dades
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Classificació de les bases de dades">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-jerarquiques" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades jeràrquiques
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-en-xarxa" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades en xarxa
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-relacionals-o-sql" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades relacionals o SQL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-nosql" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades NoSQL
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-orientades-a-objectes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades orientades a objectes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bases-de-dades-objecte-relacionals" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bases de dades objecte relacionals
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1334,7 +1182,7 @@
   
 
 
-<h1>Sistemes d'emmagatzematge de la informació</h1>
+<h1>Model Relacional</h1>
 
 
 
@@ -1375,268 +1223,341 @@
   
 
     <h2 id="introduccio">Introducció<a class="headerlink" href="#introduccio" title="Permanent link">&para;</a></h2>
-<p>En una era definida per la transformació digital, recopilar, accedir i transformar les dades 
-s'ha convertit en el nucli de la gran majoria d'aplicacions informàtiques. Però, <strong>què són les dades?</strong>
-Podem definir les dades com una <em>representació</em> d'una informació del món real que és emmagatzemada
-per després poder ser tractada per diferents finalitats.</p>
-<p>En aquest tema s'estudiaran els diferents tipus d'emmagatzemar aquestes dades.</p>
-<h2 id="fitxers-i-directoris">Fitxers i directoris<a class="headerlink" href="#fitxers-i-directoris" title="Permanent link">&para;</a></h2>
-<p>Abans que les aplicacions informàtiques es convertiren en l'eina principal per a gestionar les dades,
-les empreses emmagatzemaven la informació en calaixos, carpetes i arxius. El fet de recopilar, recuperar
-i tractar aquestes dades requeria d'un <em>procés manual</em> lent. Malgrat això, el sistema és senzill i fàcil d'utilitzar.</p>
-<p>La informàtica ha intentat mantindre la nomenclatura i l'estructura perquè es pareguen al que els usuaris
-utilitzen manualment. Es continua parlant de fitxers o arxius, carpetes o directoris, formularis, etc.</p>
-<figure id="figure-1">
-    <img src="../img/accountants.jpg" alt="Fitxers i directoris en una oficina">
-    <figcaption class="attribution">The Office</figcaption>
-    <figcaption>Figura 1: Fitxers i directoris en una oficina</figcaption>
-</figure>
-
-<p>En informàtica, els <strong>fitxers</strong> són estructures de dades ordenades, creats i gestionats
-pel sistema operatiu. Els fitxers s'identifiquen per un nom, que pot incloure una <em>extensió</em>,
-per indicar el tipus de dades que conté.</p>
-<h3 id="fitxers-de-text">Fitxers de text<a class="headerlink" href="#fitxers-de-text" title="Permanent link">&para;</a></h3>
-<p>Depenent de com es representa la informació, podem diferenciar els fitxers en <strong>fitxers de text</strong>
-o <strong>fitxers binaris</strong>.</p>
-<p>Els <strong>fitxers de text</strong> són fitxers que contenen text i, <em>generalment</em>, poden ser llegits per l'usuari.
-Algun exemple d'aquests fitxers són:</p>
+<p>Una vegada s'ha realitzat el disseny del model i l'estructura de les dades,
+es pot dissenyar com representar aquesta informació en les estructures
+utilitzades en les <strong>bases de dades relacionals</strong>. Aquesta representació s'anomena <strong>Model Relacional</strong>,
+que descriu com es poden organitzar les dades mitjançant <strong>taules relacionals</strong>.</p>
+<h2 id="taula-relacional">Taula relacional<a class="headerlink" href="#taula-relacional" title="Permanent link">&para;</a></h2>
+<p>Una <strong>taula relacional</strong> és una estructura que organitza les dades en forma de matriu,
+distribuïdes en files i columnes.</p>
+<p>Una taula relacional té els següents requisits:</p>
 <ul>
-<li><strong>Fitxers de text pla.</strong>: Fitxer que sols emmagatzema text sense format (<em>.txt</em>).
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Aquest text és un text pla.
-</span></code></pre></div></li>
-<li><strong>Fitxers de configuració</strong>: Fitxers que s'utilitzen per configurar el sistema operatiu
-    o alguna aplicació en concret (<em>.ini, .conf, .env, .json, .yml...</em>). Normalment aquests
-    fitxers estan escrits mitjançant un <strong>llenguatge de marques</strong>.
-    <div class="language-ini highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">[Settings]</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="na">dbhost</span><span class="o">=</span><span class="s">localhost</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="na">dbname</span><span class="o">=</span><span class="s">tenda</span>
-</span></code></pre></div></li>
-<li><strong>Fitxers de codi font</strong>: Contenen les línies de codi que componen un programa, escrites en
-    un <strong>llenguatge d'alt nivell</strong> (que pot entendre una persona) (<em>.java, .c, .cpp, .py, .js, .php...</em>).
-    <div class="language-java highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">class</span> <span class="nc">Main</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">){</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hola món!&quot;</span><span class="p">);</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="p">}</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">}</span>
-</span></code></pre></div></li>
-<li><strong>Fitxers anotats</strong>: Fitxers que utilitzen un <strong>llenguatge de marques</strong> per representar dades i
-    informació addicional sobre aquestes (<em>.xml, .html, .json, .yml, .css</em>).
-    <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>centre:
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  nom: CIPFP Mislata
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  localitat: Mislata
-</span></code></pre></div></li>
-<li><strong>Fitxers de text enriquit</strong>: Guarden text, però permeten oferir una visió del text amb format (<em>.rtf, .tex, .md</em>)
-    <div class="language-md highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="gh"># Introducció</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>En una era definida per la transformació digital, recopilar, accedir i transformar les dades 
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>s&#39;ha convertit en el nucli de la gran majoria d&#39;aplicacions informàtiques. Però, <span class="gs">__què són les dades?__</span>.
-</span></code></pre></div></li>
+<li>Cada entrada de la taula, és a dir, cada element que es vol emmagatzemar està representat en una <strong>fila</strong> o <strong>tupla</strong>.</li>
+<li>Cada <strong>atribut</strong> dels elements emmagatzemats es guarda en una <strong>columna</strong>.</li>
+<li>La taula és homogènia per columnes; és a dir, tots els elements d'una taula tenen el mateix nombre de columnes
+    i totes les dades d'una columna representen el mateix atribut dels diferents elements.</li>
+<li>Cada columna de la taula té assignat un nom únic en la taula. En diferents taules es pot repetir el nom.</li>
+<li>No es permeten valors múltiples dins d'una cel·la.</li>
 </ul>
-<h3 id="fitxers-binaris">Fitxers binaris<a class="headerlink" href="#fitxers-binaris" title="Permanent link">&para;</a></h3>
-<p>Els <strong>fitxers binaris</strong> són fitxers que representen la informació utilitzant una codificació
-<strong>binària</strong> (zeros i uns) i què, generalment, no poden ser llegits a simple vista.
-Aquests fitxers necessiten d'aplicacions específiques per poder accedir a la informació
-emmagatzemada.</p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>Podeu provar d'obrir qualsevol d'aquests fitxers en un editor de text (Notepad, per exemple)
-i veureu símbols sense cap classe de sentit.</p>
+<p>Les propietats d'aquestes taules són:</p>
+<ul>
+<li>Els elements o files poden estar en qualsevol ordre.</li>
+<li>Els atributs o columnes poden estar en qualsevol ordre.</li>
+<li>Els elements poden ser referenciats mitjançant els valors que el formen.</li>
+<li>Les columnes poden ser referenciades mitjançant el nom que la identifica.</li>
+</ul>
+<p>La representació que utilitzarem serà, el nom de la taula EN MAJÚSCULA, i entre parèntesi, tots els atributs en minúscula.</p>
+<div class="admonition tip">
+<p class="admonition-title">Consell</p>
+<p>Si una entitat o atribut està compost per diferents paraules, podeu utilitzar la convenció <strong>snake_case</strong>,
+on cada paraula està separada per guions baixos.</p>
 </div>
 <div class="admonition example">
-<p class="admonition-title">Contingut del fitxer de la Figura 1</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>ÿØÿà JFIF      ÿÛ C 
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>%# , #&amp;&#39;)*)-0-(0%()(ÿÛ C
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>(((((((((((((((((((((((((((((((((((((((((((((((((((ÿÂ Ô&quot; ÿÄ              ÿÄ            ÿÚ    æ›…Ãˆr)ëäHCª—”º°9pëA9K©YÉÃÝóÖuåÏrôJá¦ˆG4hž^Ïªßâþ‰ž™gÕX¼¹tIyòÜ§­™žˆ/Êúß×–»³_¬Ýe7øNxÕ%ÁQtŠÌ¤½”³;ÐÍ-s„ãäéd³‰ïü&#39;¿1«ã›ÓruÁ6E¶DE°C´ßH[]æ&#39;¡—)„    ¢*hŠœHDc4V¬ŒB»«8QÚ[…nF#b1­ˆÆ¶+2-Š\f´œµ±iÇôœÞÊLg›ÑšÎ›ëŽaÒƒÔy«7(Ä”ÔP™dç¬ó|Ï­åMUeòÎª¼ÔÙ.uiÔÍŠu³ÔøÉfûÊü
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>Ì{WäO`¸»ôuyüÏ¯Íäs×¢ó´Ù‰ªüún¦ÕôzòîÆ XD\Ù6°si6°si[› æŒ},uç=ï…÷vP§Þ 4À´ ` -VVrê&quot;Ô¬±‚ !
-</span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>-&amp;ˆ¦…]•™[”µ+UT¬QR²54AN$cd
-</span><span id="__span-5-12"><a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>•Ñ³Káˆóú=(Îü*¢ü±¯Êú¯%JPºn1¹êevãÞuëãm­¹¶FÜOn|våÕŸÅ2È§^—WÍè·ÔÝåú²ò¹½ÎOª‹ªß
-</span><span id="__span-5-13"><a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>réÒxwà²ºî¤ÏeVrº´gÑ›uÔÜ¾“~‡-©bm‰¶&amp;Ø†ÄÛ&quot;¹˜·b&lt;ÿ ºðÞæÊc%/LLbc &amp;
-</span><span id="__span-5-14"><a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a> Ð *²¢Z3è£&quot;À &amp;„€CBM
-</span><span id="__span-5-15"><a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a> ...
-</span></code></pre></div>
+<p class="admonition-title">Exemple</p>
+<p>L'entitat <strong>Cotxe</strong> amb els atributs <em>Matrícula</em>, <em>Número de bastidor</em>, <em>Marca</em>, <em>Model</em>, <em>Quilòmetres</em> i <em>Data compra</em> es
+pot descriure com la següent taula relacional.</p>
+<p>Aquesta taula es representaria com:</p>
+<ul>
+<li>COTXE(matricula, n_bastidor, marca, model, quilòmetres, data_compra)</li>
+</ul>
+<p>Exemple de la taula <code>COTXE</code> amb dades:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">#Matrícula</th>
+<th style="text-align: left;">N. Bastidor</th>
+<th style="text-align: left;">Marca</th>
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Km</th>
+<th style="text-align: left;">Data compra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">4231 KJL</td>
+<td style="text-align: left;">16483920</td>
+<td style="text-align: left;">Ford</td>
+<td style="text-align: left;">Focus</td>
+<td style="text-align: left;">39031</td>
+<td style="text-align: left;">08/12/2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">4078 CMP</td>
+<td style="text-align: left;">23948756</td>
+<td style="text-align: left;">Ford</td>
+<td style="text-align: left;">Fiesta</td>
+<td style="text-align: left;">10542</td>
+<td style="text-align: left;">02/01/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">3091 LSF</td>
+<td style="text-align: left;">12347003</td>
+<td style="text-align: left;">Volkswagen</td>
+<td style="text-align: left;">Golf</td>
+<td style="text-align: left;">8065</td>
+<td style="text-align: left;">02/04/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">7012 DLM</td>
+<td style="text-align: left;">84012398</td>
+<td style="text-align: left;">Peugeot</td>
+<td style="text-align: left;">207</td>
+<td style="text-align: left;">48623</td>
+<td style="text-align: left;">28/11/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">3877 FFT</td>
+<td style="text-align: left;">74832134</td>
+<td style="text-align: left;">Audi</td>
+<td style="text-align: left;">Q2</td>
+<td style="text-align: left;">57737</td>
+<td style="text-align: left;">05/12/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">1034 KMC</td>
+<td style="text-align: left;">56481093</td>
+<td style="text-align: left;">BMW</td>
+<td style="text-align: left;">X3</td>
+<td style="text-align: left;">8480</td>
+<td style="text-align: left;">NULL</td>
+</tr>
+</tbody>
+</table>
 </div>
-<p>Alguns dels tipus de fitxers binaris més comuns són:</p>
+<p>El conjunt de tots els valors que pot pendre un <strong>atribut</strong> s'anomena
+<strong>domini</strong>, i és un aspecte que cal tindre en compte.</p>
+<p>A més, també es pot assignar el valor <strong>nul</strong> o <code>NULL</code> quan
+l'element no té o es desconeix el valor per a un atribut.</p>
+<h2 id="claus">Claus<a class="headerlink" href="#claus" title="Permanent link">&para;</a></h2>
+<p>En les taules relacionals s'utilitzen diferents <strong>claus</strong> per identificar
+els elements de les taules relacionals, tant en una única taula com en
+taules externes.</p>
+<h3 id="clau-candidata">Clau candidata<a class="headerlink" href="#clau-candidata" title="Permanent link">&para;</a></h3>
+<p>La <strong>clau candidata</strong> és un atribut o conjunt mínim d'atributs que identifica
+de manera única cada element d'una taula relacional.</p>
+<p>Aquestes claus han de complir les condicions <code>UNIQUE</code> i <code>NOT NULL</code>, és a dir,
+si s'especifica una clau primària, tots elements de la taula han de tindre
+un valor assignat (no pot ser <code>null</code>) i a més, han de ser diferents entre ells
+(dos elements no poden tindre la mateixa clau primària).</p>
+<div class="admonition example">
+<p class="admonition-title">Exemple</p>
+<p>En la taula <code>COTXE</code>, tenim les claus candidates: <code>matricula</code> i <code>n_bastidor</code>.</p>
+<p>Els dos atributs són capaços d'identificar cada element de la taula,
+ja que tots els cotxes han de tindre una matrícula i un número de bastidor,
+i en els dos casos, cap cotxe pot tindre el mateix valor que un altre cotxe.</p>
+</div>
+<h3 id="clau-primaria">Clau primària<a class="headerlink" href="#clau-primaria" title="Permanent link">&para;</a></h3>
+<p>La <strong>clau primària</strong> és la clau candidata que es tria per identificar
+cada element d'una taula relacional.</p>
+<p>Normalment, es representen <ins>subratllades</ins> o amb el símbol <code>#</code>.</p>
+<div class="admonition example">
+<p class="admonition-title">Exemple</p>
+<p>En la taula <strong>Cotxe</strong>, la matrícula pot ser la <strong>clau primària</strong>.</p>
+<p>Es representaria com:</p>
+<ul>
+<li>COTXE(<ins>#matricula</ins>, resta d'atributs...)</li>
+</ul>
+</div>
+<h3 id="clau-alternativa">Clau alternativa<a class="headerlink" href="#clau-alternativa" title="Permanent link">&para;</a></h3>
+<p>Les <strong>claus alternatives</strong> són aquelles claus candidates que no són la clau primària.</p>
+<p>La principal diferència entre una clau primària i alternativa és que en una taula poden existir múltiples claus
+alternatives, però sols una primària.</p>
+<p>Aquest tipus de claus no tenen una representació especial respecte a un atribut regular. Quan s'especifiquen les restriccions d'integritat,
+es pot definir una restricció de tipus <code>UNIQUE</code>, per evitar valors repetits.</p>
+<div class="admonition example">
+<p class="admonition-title">Exemple</p>
+<p>En aquest cas, com s'ha decidit que la <em>matrícula</em> s'utilitzarà per a identificar
+els cotxes (clau primària), el <em>número de bastidor</em> és una <strong>clau alternativa</strong>,
+ja que també serveix per identificar cada cotxe.</p>
+</div>
+<h3 id="clau-forana-o-externa">Clau forana o externa<a class="headerlink" href="#clau-forana-o-externa" title="Permanent link">&para;</a></h3>
+<p>La <strong>clau forana o externa</strong> és l'atribut o conjunt d'atributs que permet relacionar un element d'una taula
+amb elements d'una altra taula. Normalment, s'utilitzen les claus primàries per relacionar les taules entre si.</p>
+<p>Aquestes claus es representen en <em>cursiva</em>, indicant entre parèntesi la taula i l'atribut al qual fa referència.</p>
+<ul>
+<li>ENTITAT(<ins>#clau_primaria</ins>, <em>clau_forana(ENTITAT2:atribut)</em>)</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Exemple</p>
+<p>Ens agradaria saber qui és el propietari de cada cotxe, per tant,
+s'ha afegit la taula <code>PERSONA</code> a la nostra base de dades.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">#DNI</th>
+<th style="text-align: left;">Nom</th>
+<th style="text-align: left;">Cognoms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong class="green">91471118A</strong></td>
+<td style="text-align: left;">Carles</td>
+<td style="text-align: left;">Perelló</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong class="yellow">23986973C</strong></td>
+<td style="text-align: left;">Òscar</td>
+<td style="text-align: left;">Peris</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong class="orange">24211153L</strong></td>
+<td style="text-align: left;">Andreu</td>
+<td style="text-align: left;">Pastor</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong class="blue">76064612R</strong></td>
+<td style="text-align: left;">Isabel</td>
+<td style="text-align: left;">Mora</td>
+</tr>
+</tbody>
+</table>
+<p>A més, s'ha afegit la clau forana <code>_propietari(PERSONA:dni)_</code> a la taula <code>COTXE</code>
+que relaciona les dues taules.
+Aquesta clau forana emmagatzema els valors de la clau primària <code>dni</code> de la taula <code>PERSONA</code>
+i, per tant, es pot relacionar i saber quin cotxe pertany a cada persona.</p>
+<p>La representació d'aquesta taula és:</p>
+<ul>
+<li>COTXE(<ins>#matricula</ins>, n_bastidor, marca, model, km, <em>propietari(PERSONA:dni)</em>, data_compra)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">#Matrícula</th>
+<th style="text-align: left;">N. Bastidor</th>
+<th style="text-align: left;">Marca</th>
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Km</th>
+<th style="text-align: left;"><em>Propietari</em></th>
+<th style="text-align: left;">Data compra</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">4231 KJL</td>
+<td style="text-align: left;">16483920</td>
+<td style="text-align: left;">Ford</td>
+<td style="text-align: left;">Focus</td>
+<td style="text-align: left;">39031</td>
+<td style="text-align: left;"><strong class="green">91471118A</strong></td>
+<td style="text-align: left;">08/12/2000</td>
+</tr>
+<tr>
+<td style="text-align: left;">4078 CMP</td>
+<td style="text-align: left;">23948756</td>
+<td style="text-align: left;">Ford</td>
+<td style="text-align: left;">Fiesta</td>
+<td style="text-align: left;">10542</td>
+<td style="text-align: left;"><strong class="green">91471118A</strong></td>
+<td style="text-align: left;">02/01/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">3091 LSF</td>
+<td style="text-align: left;">12347003</td>
+<td style="text-align: left;">Volkswagen</td>
+<td style="text-align: left;">Golf</td>
+<td style="text-align: left;">8065</td>
+<td style="text-align: left;"><strong class="yellow">23986973C</strong></td>
+<td style="text-align: left;">02/04/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">7012 DLM</td>
+<td style="text-align: left;">84012398</td>
+<td style="text-align: left;">Peugeot</td>
+<td style="text-align: left;">207</td>
+<td style="text-align: left;">48623</td>
+<td style="text-align: left;"><strong class="orange">24211153L</strong></td>
+<td style="text-align: left;">28/11/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">3877 FFT</td>
+<td style="text-align: left;">74832134</td>
+<td style="text-align: left;">Audi</td>
+<td style="text-align: left;">Q2</td>
+<td style="text-align: left;">57737</td>
+<td style="text-align: left;"><strong class="blue">76064612R</strong></td>
+<td style="text-align: left;">05/12/2001</td>
+</tr>
+<tr>
+<td style="text-align: left;">1034 KMC</td>
+<td style="text-align: left;">56481093</td>
+<td style="text-align: left;">BMW</td>
+<td style="text-align: left;">X3</td>
+<td style="text-align: left;">8480</td>
+<td style="text-align: left;">NULL</td>
+<td style="text-align: left;">NULL</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="integritat">Integritat<a class="headerlink" href="#integritat" title="Permanent link">&para;</a></h2>
+<p>Es defineixen com <strong>regles d'integritat</strong> a aquelles regles que garanteixen la consistència i
+integritat de la informació. Aquestes regles es basen en els dominis dels atributs, les claus
+primàries i les claus foranes (integritat referencial).</p>
+<h5 id="regles-dintegritat">Regles d'integritat<a class="headerlink" href="#regles-dintegritat" title="Permanent link">&para;</a></h5>
+<p><strong>Taula</strong>:</p>
+<ul>
+<li>Una taula relacional no pot tindre tuples iguals (elements repetits).</li>
+</ul>
+<p><strong>Domini</strong>:</p>
+<ul>
+<li>Cada atribut sols pot prendre un únic valor per cada tupla.</li>
+<li>Un atribut no pot prendre valors que estiguen fora del domini definit.</li>
+</ul>
+<p><strong>Claus primàries</strong>:</p>
+<ul>
+<li>Les claus primàries no poden contindre elements nuls. Aquesta restricció s'anomena <code>NOT NULL</code>.</li>
+<li>Les claus primàries no poden tindre valors repetits en diferents elements, és a dir,
+    el valor ha de ser únic per a cada element. Aquesta restricció s'anomena <code>UNIQUE</code>.
+    Aquesta restricció pot ser definida en les <strong>claus alternatives</strong>.</li>
+</ul>
+<p><strong>Integritat referencial o clau forana</strong>:</p>
 <ul>
 <li>
-<p><strong>Fitxers multimèdia</strong>: Qualsevol fitxer multimèdia conté la informació en binari, tant siga imatges (<em>.png, .jpg, .gif, ...</em>),
-    vídeos (<em>.avi, .mpg, .mp4, ...</em>) o àudio (<em>.wav, .mp3, ...</em>).</p>
+<p>Les claus foranes han de prendre valors existents en la taula a la qual es vol referencial o <code>NULL</code>.</p>
 </li>
 <li>
-<p><strong>Fitxers comprimits</strong>: Fitxers que canvien la representació utilitzada "naturalment" en l'ordinador per representar les mateixes dades en menys espai, per tant, de manera comprimida.
-    Cal fer una transformació per a obtindre o recuperar les dades d'aquest tipus de fitxers (comprimir i/o descomprimir). <em>.zip, .z, .rar, .gz, .rar</em></p>
+<p>Es poden definir diferents comportaments per a la modificació i eliminació de les tuples referenciades:</p>
+<ul>
+<li>
+<p>Eliminació o modificació en cascada (<code>CASCADE</code>): Si s'elimina una tupla o es modifica la clau primària de la taula referenciada,
+també s'esborren o es modifiquen les tuples de la taula on està referenciada.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Si s'esborra la tupla <strong class="green">91471118A</strong> de la taula <code>PERSONA</code>, també s'esborraran les tuples <strong>4231 KJL</strong> i <strong>4078 CMP</strong> de la taula <code>COTXE</code>.</p>
+</div>
 </li>
-<li><strong>Executables</strong>: Programes informàtics escrits en <strong>llenguatge màquina</strong>. <em>.exe, .class, ...</em></li>
-<li><strong>Fitxers d'aplicacions</strong>: Fitxers amb un format específic per cada aplicació, des de documents de processament de text (<em>.docx o .odt), </em>.pdf_ o fitxers de Photoshop (.psd).</li>
+<li>
+<p>Eliminació o modificació restringida (<code>RESTRICT</code>): No és possible eliminar entrades d'una taula si són referenciades des d'una altra taula.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>La tupla <strong class="green">91471118A</strong> no pot ser eliminada i la clau primària no pot ser modificada.</p>
+</div>
+</li>
+<li>
+<p>Eliminació o modificació amb valors nuls (<code>SET NULL</code>): És possible l'eliminació o modificació, però els valors en la taula des d'on es referència passarà a ser <code>NULL</code>.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>tupla <strong class="green">91471118A</strong> de la taula <code>PERSONA</code> pot ser eliminada.
+ valor de l'atribut <code>propietari</code> de les tuples <strong>4231 KJL</strong> i <strong>4078 CMP</strong> passarà a ser <code>NULL</code>.</p>
+</div>
+</li>
+<li>
+<p>Eliminació o modificació amb valors per defecte (<code>SET DEFAULT</code>): És possible l'eliminació o modificació, però els valors en la taula des d'on es referència passarà a ser un valor per defecte definit.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>La tupla <strong class="green">91471118A</strong> de la taula <code>PERSONA</code> pot ser eliminada.
+El valor de l'atribut <code>propietari</code> de les tuples <strong>4231 KJL</strong> i <strong>4078 CMP</strong> passarà a ser un valor per defecte definit.</p>
+</div>
+</li>
 </ul>
-<h3 id="directoris">Directoris<a class="headerlink" href="#directoris" title="Permanent link">&para;</a></h3>
-<p>En un sistema informàtic, un directori, també conegut com a carpeta, és una estructura d'organització
-utilitzada per emmagatzemar i gestionar arxius i altres directoris.
-Aquesta és una part fonamental de la gestió de l'arxiu del sistema operatiu i
-permet als usuaris organitzar els seus documents, aplicacions i altres dades de manera jeràrquica i estructurada.</p>
-<p>Els directoris es poden organitzar en una jerarquia. Un directori pot contenir arxius i altres subdirectoris.
-A la vegada, aquests subdirectoris també poden contenir arxius i més subdirectoris, creant una estructura en forma d'arbre.</p>
-<figure id="figure-2">
-    <img src="../img/folders.jpg" alt="Estructura jeràrquica dels directoris" style="max-width: 400px">
-    <figcaption class="attribution">Autor desconegut</figcaption>
-    <figcaption>Figura 2: Estructura jeràrquica dels directoris</figcaption>
-</figure>
-
-<h2 id="bases-de-dades">Bases de dades<a class="headerlink" href="#bases-de-dades" title="Permanent link">&para;</a></h2>
-<p>Malgrat que les dades poden ser emmagatzemades mitjançant fitxers, aquest
-sistema pot provocar problemes:</p>
-<ul>
-<li><strong>Redundàncies i inconsistències</strong>: El fet d'haver de transportar els fitxers i duplicar-los en cada dispositiu
-    que vol ser utilitzat porta a la redundància de dades, que pot portar a inconsistències si les modificacions no es fan a escala global.</li>
-<li><strong>Dificultat d'accés a les dades</strong>: Cada aplicació llegeix les dades d'una manera concreta, que ens pot portar inconvenients si hem d'importar i exportar constantment.</li>
+</li>
 </ul>
-<p>Per evitar els problemes anteriors, s'han dissenyat sistemes de gestió de la informació alternatius, com les <strong>bases de dades</strong>.</p>
-<p>Una <strong>base de dades</strong> és un <strong>sistema de gestió de la informació</strong> que emmagatzema les dades d'una manera eficient i ordenada,
-sense redundàncies i les quals poden ser utilitzades per diferents aplicacions.</p>
-<h5 id="avantatges">Avantatges<a class="headerlink" href="#avantatges" title="Permanent link">&para;</a></h5>
-<ul>
-<li>Independència entre les dades i les aplicacions que accedeixen a aquestes.</li>
-<li>Atomicitat de les actualitzacions (evita inconsistències).</li>
-<li>Accés concurrent o simultani a les dades per part de diverses aplicacions.</li>
-<li>Menor redundància.</li>
-<li>Major seguretat en les dades. Es permet configurar i limitar l'accés a les dades per part dels usuaris.</li>
-</ul>
-<h5 id="desavantatges">Desavantatges<a class="headerlink" href="#desavantatges" title="Permanent link">&para;</a></h5>
-<ul>
-<li>Instal·lació costosa. El control i administració de les bases de dades requereix d'un maquinari i programari potent.</li>
-<li>Requereix personal qualificat per administrar i gestionar aquests sistemes.</li>
-</ul>
-<h3 id="estructura">Estructura<a class="headerlink" href="#estructura" title="Permanent link">&para;</a></h3>
-<figure id="figure-3">
-    <img src="../img/estructura_db.png" alt="Estructura d'una base de dades">
-    <figcaption class="attribution">Autor desconegut</figcaption>
-    <figcaption>Figura 3: Estructura d'una base de dades</figcaption>
-</figure>
-
-<p>L'estructura de les bases de dades, típicament, segueix una estructura <strong>client/servidor</strong> i té la següent estructura:</p>
-<ul>
-<li><strong>Usuaris</strong>: Els usuaris interactuen en una aplicació connectada a la base de dades. Aquesta aplicació pot permetre als usuaris
-    consultar, modificar o explotar les dades.</li>
-<li><strong>Aplicació</strong>: L'aplicació (programa informàtic) actua com a client i es connecta al <strong>sistema gestor de bases de dades (SGBD)</strong>, en el servidor per recuperar o modificar les dades.
-    L'aplicació es comunica amb el SGBD mitjançant un llenguatge comú, típicament el <strong>Structured Query Language (SQL)</strong>.</li>
-<li><strong>Sistema Gestor de Bases de Dades (SGBD, o en anglés DBMS, DataBase Management System)</strong>: És el programari responsable de la creació i administració de bases de dades i gestionar
-    la comunicació amb els clients. Normalment està instal·lat en un servidor. Aquest programari rep les peticions SQL dels clients i les tradueix en accions sobre la base de dades.</li>
-<li><strong>Base de dades</strong>: Conjunt de dades emmagatzemades en un SGBD d'una manera ordenada i estructurada. <em>Per exemple, en bases de dades relacionals, s'organitzen en taules i relacions</em>.</li>
-</ul>
-<h3 id="metadades">Metadades<a class="headerlink" href="#metadades" title="Permanent link">&para;</a></h3>
-<p>Una base de dades és autodescriptiva, en el sentit que conté una descripció d'ella mateixa.
-Per tant, les bases de dades també emmagatzemen descripcions de les dades que es guarden.</p>
-<p>Aquestes dades de descripció s'anomenen <strong>metadades</strong> (dades sobre les dades).
-La forma i format de les metadades varia segons el SGBD utilitzat.</p>
-<p>Les metadades es poden consultar per determinar les taules existents particulars,
-els índexs o altres estructures existents en la base de dades i es troben
-definides en les estructures que es coneixen com el <strong>diccionari de dades (DD)</strong>.</p>
-<h3 id="classificacio-de-les-bases-de-dades">Classificació de les bases de dades<a class="headerlink" href="#classificacio-de-les-bases-de-dades" title="Permanent link">&para;</a></h3>
-<p>Segons l'organització i estructura interna de les dades, podem classificar les bases
-de dades en les següents categories:</p>
-<h4 id="bases-de-dades-jerarquiques">Bases de dades jeràrquiques<a class="headerlink" href="#bases-de-dades-jerarquiques" title="Permanent link">&para;</a></h4>
-<p>Aquest tipus de bases de dades organitza la informació d'una
-manera <strong>jeràrquica</strong>, és a dir, s'organitzen en una estructura
-<strong>d'arbre invertit</strong> on l'informació es guarda en cada node. De cada node,
-poden crear-se nodes addicionals. El primer node s'anomena <strong>arrel</strong>, i sobre aquest,
-es construeix tot l'arbre. Els últims nodes dels quals no descendeix cap node més s'anomenen
-<strong>fulles</strong>.</p>
-<p>Aquest model va començar a utilitzar-se en 1992 i va arribar a ser un dels models més utilitzats,
-però amb el temps s'ha deixat d'utilitzar.</p>
-<p>En aquest model Les connexions en l'arbre són fixes i l'accés a les dades es realitza d'una manera ràpida.
-No obstant això, el principal desavantatge és que no es permeten relacions de molts a molts (N:M).</p>
-<figure id="figure-4">
-    <img src="../img/hierarchical.png" alt="Base de dades jeràrquica">
-    <figcaption class="attribution">https://www.geeksforgeeks.org/</figcaption>
-    <figcaption>Figura 4: Base de dades jeràrquica</figcaption>
-</figure>
-
-<h4 id="bases-de-dades-en-xarxa">Bases de dades en xarxa<a class="headerlink" href="#bases-de-dades-en-xarxa" title="Permanent link">&para;</a></h4>
-<p>Aquest tipus de bases de dades és molt similar al model jeràrquic, però en aquest
-cas, les dades s'organitzen en una estructura de <strong>graf</strong>, el que permet crear
-relacions de molts a molts (N:M).</p>
-<figure id="figure-5">
-    <img src="../img/network.png" alt="Base de dades en xarxa">
-    <figcaption class="attribution">https://www.geeksforgeeks.org/</figcaption>
-    <figcaption>Figura 5: Base de dades en xarxa</figcaption>
-</figure>
-
-<h4 id="bases-de-dades-relacionals-o-sql">Bases de dades relacionals o SQL<a class="headerlink" href="#bases-de-dades-relacionals-o-sql" title="Permanent link">&para;</a></h4>
-<p>Aquest model de bases de dades és el més utilitzat en l'actualitat.
-Les <strong>bases de dades relacionals</strong> és basen en el <strong>Model relacional</strong>,
-enunciat per Edgar F. Codd en 1969. En aquest model, les dades s'organitzen
-en <strong>taules</strong> que poden estar relacionades enter elles.</p>
-<p>Aquestes bases de dades també reben el nom de <strong>bases de dades SQL</strong>, ja que utilitzen
-en <strong>llenguatge SQL (Structured Query Language)</strong> per realitzar les consultes
-a la base de dades.</p>
-<figure id="figure-6">
-    <img src="../img/relational.png" alt="Base de dades relacional">
-    <figcaption class="attribution">Autor desconegut</figcaption>
-    <figcaption>Figura 6: Base de dades relacional</figcaption>
-</figure>
-
-<h5 id="avantatges_1">Avantatges<a class="headerlink" href="#avantatges_1" title="Permanent link">&para;</a></h5>
-<ul>
-<li>El més utilitzat i conegut pels desenvolupadors.</li>
-<li>S'han elaborat moltes eines al llarg del temps per facilitar la seua gestió.</li>
-<li>L'atomicitat de les operacions en la base de dades. En aquestes bases de dades,
-o es fa l'operació sencera o no es fa. Possibilitat de tornar enrere amb <code>rollback</code>.</li>
-<li>Les dades han de complir requisits d'integritat.</li>
-</ul>
-<h5 id="desavantatges_1">Desavantatges<a class="headerlink" href="#desavantatges_1" title="Permanent link">&para;</a></h5>
-<ul>
-<li>L'atomicitat de les operacions penalitza el rendiment.</li>
-<li>L'escalabilitat, que encara que està provada en molts entorns, sol ser inferior a les bases de dades NoSQL.</li>
-</ul>
-<h4 id="bases-de-dades-nosql">Bases de dades NoSQL<a class="headerlink" href="#bases-de-dades-nosql" title="Permanent link">&para;</a></h4>
-<p>La terminologia <strong>bases de dades NoSQL</strong> s'utilitza per englobar
-noves maneres d'organitzar les dades sense seguir el model relacional.
-NoSQL significa <strong>Not Only SQL</strong>.</p>
-<p>Depenent de l'estructura interna d'aquestes bases de dades, les característiques
-i la utilització serà diferent. Es poden classificar en:</p>
-<ul>
-<li><strong>Documentals</strong>: Les quals guarden la informació en documents. <em>Exemple: MongoDB o Firebase</em>.</li>
-<li><strong>Gràfiques</strong>: Utilitzen grafs per modelar l'informació i són útlis per modelar
-    relacions, com per exemple, en xarxes socials. <em>Exemple: Neo4j o TypeDB.</em></li>
-<li><strong>Clau valor</strong>: Les dades s'organitzen en tuples, que emparella una <strong>clau única</strong>
-    amb un <strong>valor associat</strong> (com podria ser una agenda telefònica). <em>Exemple: Redis</em>.</li>
-</ul>
-<p>Aquest tipus de bases de dades són flexibles, escalables i simplifiquen el desenvolupament
-d'aplicacions web i en el núvol.</p>
-<h4 id="bases-de-dades-orientades-a-objectes">Bases de dades orientades a objectes<a class="headerlink" href="#bases-de-dades-orientades-a-objectes" title="Permanent link">&para;</a></h4>
-<p>Una <strong>base de dades orientada a objectes</strong> està dissenyada a partir del paradigma
-dels llenguatges orientats a objectes.</p>
-<h5 id="avantatges_2">Avantatges<a class="headerlink" href="#avantatges_2" title="Permanent link">&para;</a></h5>
-<ul>
-<li>Molta capacitat de modelat.</li>
-<li>Es poden definir tipus de dades a partir d'altres ja existents (herència, especialització, ...)</li>
-</ul>
-<h5 id="desavantatges_2">Desavantatges<a class="headerlink" href="#desavantatges_2" title="Permanent link">&para;</a></h5>
-<ul>
-<li>No existeix un estàndard.</li>
-<li>Complexa d'utilitzar.</li>
-</ul>
-<p>Aquest tipus de bases de dades no ha arribat a utilitzar-se d'una manera global,
-ja que els llenguatges orientats a objectes han trobat maneres d'accedir 
-a les bases de dades relacionals. <em>Exemple: ObjectDB</em></p>
-<h4 id="bases-de-dades-objecte-relacionals">Bases de dades objecte relacionals<a class="headerlink" href="#bases-de-dades-objecte-relacionals" title="Permanent link">&para;</a></h4>
-<p>Les <strong>bases de dades objecte relacionals</strong> es caracteritza per combinar els aspectes més rellevants
-de les bases de dades relacionals i les bases de dades orientades a objectes. Aquestes bases de dades
-permeten l'emmagatzematge d'objectes, però també permeten la utilització <strong>SQL</strong>, com les bases
-de dades tradicionals.</p>
 <h2 id="bibliografia">Bibliografia<a class="headerlink" href="#bibliografia" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Material de Laura Villalba, <em>Introducció a les bases de dades</em>.</li>
 <li>Ahijado Sánchez, A, <em>Bases de datos</em>, Ed. Marcombo.</li>
-<li><a href="https://ioc.xtec.cat/materials/FP/Recursos/fp_dam_m02_/web/fp_dam_m02_htmlindex/WebContent/u1/a1/continguts.html">https://ioc.xtec.cat/materials/FP/Recursos/fp_dam_m02_/web/fp_dam_m02_htmlindex/WebContent/u1/a1/continguts.html</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Graph_database">https://en.wikipedia.org/wiki/Graph_database</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Key%E2%80%93value_database">https://en.wikipedia.org/wiki/Key%E2%80%93value_database</a></li>
-<li><a href="https://www.tutorialspoint.com/object-and-object-relational-databases">https://www.tutorialspoint.com/object-and-object-relational-databases</a></li>
-<li><a href="https://www.geeksforgeeks.org/difference-between-hierarchical-and-network-data-model/">https://www.geeksforgeeks.org/difference-between-hierarchical-and-network-data-model/</a></li>
+<li><a href="https://unstop.com/blog/difference-between-primary-key-and-candidate-key">https://unstop.com/blog/difference-between-primary-key-and-candidate-key</a></li>
 </ul>
     
 
@@ -1658,7 +1579,7 @@ de dades tradicionals.</p>
     <span class="md-icon" title="Darrera actualització">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2 de setembre del 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">3 de setembre del 2024</span>
   </span>
 
     
@@ -1694,7 +1615,7 @@ de dades tradicionals.</p>
       <nav class="md-footer__inner md-grid" aria-label="Peu de pàgina" >
         
           
-          <a href="../../" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Apunts">
+          <a href="../../02_er/010_er/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Model Entitat Relació">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1704,27 +1625,11 @@ de dades tradicionals.</p>
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Apunts
+                Model Entitat Relació
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../020_sgbd/" class="md-footer__link md-footer__link--next" aria-label="Següent: Sistemes gestors de bases de dades">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Següent
-              </span>
-              <div class="md-ellipsis">
-                Sistemes gestors de bases de dades
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
